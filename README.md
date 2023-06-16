@@ -1,17 +1,14 @@
-
-
 ## Settings
+To set up the project, navigate to the main directory and run the following command: npm i
 
-projeyi çekip ana dizinde şunu çalıştırın -> npm i
 
 ## Run
+The project runs based on the value of the platform variable in the test-settings.js file (either android or ios). Tests to be executed are configured based on the tags variable in the test-settings.js file.
 
-test-settings.js içinde TEST_SETTINGS -> platform değerine göre çalışır (android % ios)
-test-settings.js içinde tags'e göre koşulacak testler ayarlanır
-local android testi için, bu değeri android olarak set edip, terminalde aşağıdaki komutu çalıştırın (diğerleri için -> package.json)
+For running local Android tests, set the value of platform to android and execute the following command in the terminal (for others, refer to package.json):
 
-terminal -> npm run local
+Terminal: npm run local
+
 
 ## Report
-
-proje ana dizininde -> allure open
+To view the report, go to the main project directory and run the command allure open.
