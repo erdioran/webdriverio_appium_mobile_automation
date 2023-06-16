@@ -1,0 +1,47 @@
+{
+    "name": "qcharge_mobile_wdio_v1",
+    "version": "0.1.0",
+    "readme": "",
+    "scripts": {
+        "test": "npm run local",
+        "local": "./node_modules/.bin/wdio test/drivers/local/local.conf.js",
+        "android-cloud": "./node_modules/.bin/wdio test/drivers/cloud/....",
+        "ios-cloud": "./node_modules/.bin/wdio test/drivers/cloud/....",
+        "ios-multiple": "./node_modules/.bin/wdio examples/multiple-test/ios.multiple.conf.js"
+    },
+    "dependencies": {
+        "@badisi/wdio-harness": "^1.0.4",
+        "@wdio/allure-reporter": "^7.19.7",
+        "@wdio/appium-service": "^7.19.5",
+        "@wdio/cli": "^7.19.7",
+        "@wdio/cucumber-framework": "^7.19.7",
+        "@wdio/local-runner": "^7.19.7",
+        "@wdio/mocha-framework": "^7.19.7",
+        "@wdio/spec-reporter": "^7.19.7",
+        "allure-commandline": "^2.17.2",
+        "chai": "^4.3.6",
+        "chromedriver": "^101.0.0",
+        "mocha-allure-reporter": "^1.4.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-wait-for": "^2.2.6",
+        "webdriverio": "^7.19.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/erdi-oran-alg/qcharge_mobile_wdio_v1.git"
+    },
+    "keywords": [
+        "webdriverio",
+        "wdio",
+        "appium",
+        "tests",
+        "native app",
+        "hybrid",
+        "android",
+        "ios"
+    ],
+    "bugs": {
+        "url": ""
+    },
+    "homepage": ""
+}
